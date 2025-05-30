@@ -9,7 +9,7 @@ export const sampleAudioFiles = {
 
 export const sampleStories: Story[] = [
   {
-    id: '1',
+    id: '8b0a4977-54d7-419e-84b6-dfd6fb87d1b4',
     title: 'Summer at Grandpa\'s Farm',
     excerpt: 'Every summer, we would visit my grandparents\' farm in Iowa. The smell of freshly baked apple pie would greet us before we even got out of the car...',
     narrator: 'Sarah Johnson',
@@ -22,7 +22,7 @@ export const sampleStories: Story[] = [
     tags: ['Grandpa', 'Farm', 'Summer']
   },
   {
-    id: '2',
+    id: '693f2d85-d57d-432d-a413-e34d98d09a5d',
     title: 'Dad\'s World War II Stories',
     excerpt: 'My father rarely talked about his experiences in the war, but on his 80th birthday, he opened up about what it was like as a young soldier...',
     narrator: 'Robert Johnson',
@@ -35,7 +35,7 @@ export const sampleStories: Story[] = [
     tags: ['Dad', 'War', 'History']
   },
   {
-    id: '3',
+    id: 'b1d8b321-69b5-4998-9770-7ef9768015a2',
     title: 'The Family Thanksgiving Tradition',
     excerpt: 'Our Thanksgiving tradition started in 1965 when my mother decided that everyone would share something they were grateful for before dinner...',
     narrator: 'Emily Johnson',
@@ -48,7 +48,7 @@ export const sampleStories: Story[] = [
     tags: ['Thanksgiving', 'Traditions', 'Family']
   },
   {
-    id: '4',
+    id: '4922d144-dd53-4d7f-bbef-b64cd8928cc2',
     title: 'How Mom and Dad Met',
     excerpt: 'It was a rainy day in April 1975, and my mother had forgotten her umbrella. My father, a stranger at the time, offered to share his...',
     narrator: 'Michael Johnson',
@@ -61,7 +61,7 @@ export const sampleStories: Story[] = [
     tags: ['Mom', 'Dad', 'Love Story']
   },
   {
-    id: '5',
+    id: '58c9a2ac-5e61-490d-9d81-f5d168325be6',
     title: 'Grandma\'s Secret Recipe',
     excerpt: 'My grandmother was known for her chocolate cake, which won the county fair three years in a row. She finally revealed her secret ingredient...',
     narrator: 'Jessica Smith',
@@ -74,7 +74,7 @@ export const sampleStories: Story[] = [
     tags: ['Grandma', 'Cooking', 'Recipes']
   },
   {
-    id: '6',
+    id: '849b74be-c6b5-4012-9962-ee72732c93db',
     title: 'First Day of School',
     excerpt: 'I still remember my first day of kindergarten. Mom had ironed my new outfit the night before, and I carried my lunch in a Star Wars lunchbox...',
     narrator: 'David Johnson',
@@ -90,7 +90,7 @@ export const sampleStories: Story[] = [
 
 export const sampleFamilyMembers: FamilyMember[] = [
   {
-    id: '1',
+    id: 'abc9204d-2c14-4425-8a2f-f93375503b6e',
     name: 'Elizabeth Johnson',
     birthYear: 1935,
     deathYear: 2020,
@@ -100,7 +100,7 @@ export const sampleFamilyMembers: FamilyMember[] = [
     color: '#00afaf'
   },
   {
-    id: '2',
+    id: '8cded6c2-05a4-467d-927e-a215c1ca4b54',
     name: 'Robert Johnson Sr.',
     birthYear: 1932,
     deathYear: 2018,
@@ -110,7 +110,7 @@ export const sampleFamilyMembers: FamilyMember[] = [
     color: '#ffb900'
   },
   {
-    id: '3',
+    id: 'a8b7f096-1c5e-4da1-a6c6-90c0846cbd61',
     name: 'Margaret Wilson',
     birthYear: 1938,
     deathYear: null,
@@ -120,7 +120,7 @@ export const sampleFamilyMembers: FamilyMember[] = [
     color: '#c300ff'
   },
   {
-    id: '4',
+    id: '8519ca1e-b3e7-451a-9a95-a4fcee2849c4',
     name: 'Robert Johnson Jr.',
     birthYear: 1958,
     deathYear: null,
@@ -130,7 +130,7 @@ export const sampleFamilyMembers: FamilyMember[] = [
     color: '#00afaf'
   },
   {
-    id: '5',
+    id: '0810d068-73f7-4847-a438-52e57d199090',
     name: 'Sarah Johnson',
     birthYear: 1960,
     deathYear: null,
@@ -140,7 +140,7 @@ export const sampleFamilyMembers: FamilyMember[] = [
     color: '#ffb900'
   },
   {
-    id: '6',
+    id: '658e8281-4bfe-410c-9389-3f189510fc5a',
     name: 'Michael Johnson',
     birthYear: 1962,
     deathYear: null,
