@@ -191,7 +191,7 @@ const RecordPage = () => {
       }
 
       const entry = await saveMemory({
-        groupId: 'default',
+        groupId: '7f43fead-f89b-49a4-92e9-0d0e63d918c9',
         title: 'Memory from ' + new Date().toLocaleDateString(),
         content: memoryText,
         files: uploadedFiles,

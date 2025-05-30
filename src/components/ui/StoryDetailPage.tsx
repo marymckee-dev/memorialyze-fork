@@ -53,7 +53,7 @@ const StoryDetailPage = () => {
               created_at
             )
           `)
-          .eq('entry_id', storyId);
+          .eq('journal_entry_id', storyId);
 
         if (dbError) throw dbError;
 

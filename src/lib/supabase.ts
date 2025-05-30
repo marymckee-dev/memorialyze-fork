@@ -83,12 +83,21 @@ export async function saveMemory(data: {
 
       if (fileError) throw fileError;
 
+      console.log('DUG:  Linking file to the entry in saveMemory():', {
+        fileName,
+        filePath,
+        userId: user.id,
+        file_id: fileData.id,
+        entryId: entry.id
+      });
+
       // Link file to entry
       const { error: linkError } = await supabase
         .from('entry_files')
         .insert({
           entry_id: entry.id,
-          file_id: fileData.id
+          file_id: fileData.id,
+          journal_entry_id: entry.id
         });
 
       if (linkError) throw linkError;
@@ -108,6 +117,7 @@ export async function saveMemory(data: {
 export async function uploadStoryFile(file: File, storyId: string): Promise<string> {
   try {
     // Get current user
+    console.log('Current user: ' + await supabase.auth.getUser());
     const { data: { user }, error: userError } = await supabase.auth.getUser();
     if (userError) throw userError;
     if (!user) throw new Error('No authenticated user');
@@ -159,12 +169,21 @@ export async function uploadStoryFile(file: File, storyId: string): Promise<stri
       fileName: fileData.name
     });
 
+    console.log('DUG:  Linking file to the entry in uploadStoryFile():', {
+      fileName,
+      filePath,
+      userId: user.id,
+      file_id: fileData.id,
+      entryId: storyId
+    });
+
     // Create entry_files link
     const { error: linkError } = await supabase
       .from('entry_files')
       .insert({
         entry_id: storyId,
-        file_id: fileData.id
+        file_id: fileData.id,
+        journal_entry_id: storyId
       });
 
     if (linkError) throw linkError;
